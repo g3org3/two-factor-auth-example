@@ -17,6 +17,7 @@ function main() {
 
 	// CODE
 	const code = speakeasy.totp({ secret, encoding: 'base32' })
+	console.log({ code })
 }
 main()
 
